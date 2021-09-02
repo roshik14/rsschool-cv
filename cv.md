@@ -5,7 +5,7 @@
 * E-mail: fraust1337@gmail.com
 * Github: https://github.com/roshik14 
 ## About
-//
+My goal is to become a professional and competent web developer. I love to learn new things and always try my best.
 
 ## Skills
 * C/C# (basic knowledge)
@@ -33,4 +33,4 @@ function duplicateCount(text){
 - Novosibirsk State Pedagogical University
 
 ## English level
--A2
+- A2
