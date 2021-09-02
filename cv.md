@@ -3,7 +3,7 @@
 * Address: Novosibirsk, Russia
 * Phone: +7 (913) 204-55-19
 * E-mail: fraust1337@gmail.com
-* Github: https://github.com/roshik14 
+* Github: [roshik14](https://github.com/roshik14) 
 ## About
 My goal is to become a professional and competent web developer. I love to learn new things and always try my best.
 
