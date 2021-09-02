@@ -26,3 +26,11 @@ function duplicateCount(text){
   return set.size;
   }
 ```
+## Work Experience
+- Don't have any work experience
+
+## Education
+- Novosibirsk State Pedagogical University
+
+## English level
+-A2
