@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Playfair Display SC', serif;
   font-size: 48px;
@@ -8,13 +12,12 @@ body {
 
   background-color: #F0F0F0;
 }
+figure {
+  margin: 0;
+}
 
-main {
-  border-top: #F85C50 solid 2px;
-  font-size: 32px;
-
-  display: flex;
-  justify-content: center;
+ul {
+  list-style-type: none;
 }
 
 a {
@@ -25,9 +28,14 @@ h4 {
   font-size: 24px;
   text-transform: uppercase;
 }
-
+pre {
+  margin-left: -120px;
+  width: 600px;
+  
+}
 code {
   font-size: 20px;
+  
 }
 
 .container {
@@ -38,6 +46,47 @@ code {
 }
 
 .header {
+  padding: 30px;
+  background-color: #09203F;
+  margin-bottom: 0;
+
+  border-radius: 20px;
+}
+
+.header-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  font-size: 25px;
+  text-decoration: none;
+}
+.header-list li {
+  margin: 0 10px;
+}
+.header-list a {
+  color: #F0F0F0;
+}
+
+.header-list a:hover {
+  color: #F85C50;
+}
+
+.header-list a:active {
+  color: #D2AA1B;
+}
+
+.main-section {
+  border-top: #F85C50 solid 2px;
+  font-size: 32px;
+
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 50px;
+}
+
+.main-info {
   margin-bottom: 150px;
   text-align: center;
 }
@@ -63,7 +112,7 @@ code {
 
 
 .left-blocks {
-  max-width: 600;
+  max-width: 600px;
   width: 100%;
 
   border-right: #F85C50 2px solid;
@@ -71,7 +120,11 @@ code {
 
 .right-blocks {
   margin-left: 30px;
+  max-width: 600px;
+  width: 100%;
 }
+
+
 
 .contacts-subheader {
   font-size: 28px;
@@ -100,6 +153,7 @@ code {
 .right-blocks h2 {
   color: #D2AA1B;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .skills, .languages {
@@ -136,7 +190,13 @@ code {
 }
 
 .code-examples h2 {
+  margin-top: 0;
   margin-bottom: 30px;
+}
+
+.footer {
+  padding: 40px;
+  background-color: #09203F;
 }
 
 
