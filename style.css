@@ -9,15 +9,37 @@ body {
   background-color: #F0F0F0;
 }
 
+main {
+  border-top: #F85C50 solid 2px;
+  font-size: 32px;
+
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+h4 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+pre {
+  margin: 10px;
+}
+
 .container {
-  max-width: 1200;
+  max-width: 1200px;
   width: 100%;
-  margin: 0 auto;
+  margin: auto;
+  
 }
 
 .header {
-  text-align: center;
   margin-bottom: 150px;
+  text-align: center;
 }
 
 .name {
@@ -28,7 +50,72 @@ body {
   color: #D2AA1B;
 }
 
-main {
-  border-top: #F85C50 solid 2px;
-  font-size: 32px;
+
+.left-blocks {
+  max-width: 600;
+  width: 100%;
 }
+
+.contacts-subheader {
+  font-size: 28px;
+  color: #580BE4;
+  margin-bottom: 0;
+}
+
+.contacts p {
+  font-size: 24px;
+  margin: 12px;
+}
+
+.contacts a {
+  color: #000;
+  border: #F85C50 2px solid;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.left-blocks h2 {
+  color: #D2AA1B;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.right-blocks h2 {
+  color: #D2AA1B;
+  margin-bottom: 0;
+}
+
+.skills, .languages {
+  color: #580BE4;
+}
+.skills p, .languages p {
+  margin: 10px;
+}
+
+.languages, .languages-header {
+  margin-top: 10px;
+}
+
+.schools-section {
+  display: flex;
+  justify-content: center;
+}
+
+.years {
+  max-width: 200px;
+  width: 100%;
+}
+
+.years p {
+  margin-bottom: 120px;
+}
+
+.schools p {
+  font-size: 22px;
+}
+
+.code {
+  font-size: 20px;
+}
+
+
