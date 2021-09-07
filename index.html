@@ -20,7 +20,7 @@
         <p class="prof">Junior frontend developer</p>
       </header>
       <main>
-        <section class="left-blocks">
+        <div class="left-blocks">
 
           <section class="contacts">
             <h2 class="contacts-header">Contacts</h2>
@@ -48,9 +48,9 @@
             <p>Chinese - B1</p>
             <p>Russian - native</p>
           </section>
-        </section>
+        </div>
 
-        <section class="right-blocks">
+        <div class="right-blocks">
 
           <section class="work">
             <h2 class="work-header">Work experience</h2>
@@ -79,20 +79,18 @@
 
           <section class="code-examples">
             <h2 class="code-examples-header">Code examples</h2>
-              <pre><code class="code">
-function duplicateCount(text) {
-  let set = new Set();
-  text = text.toLowerCase().split('').sort().join('');
-  for (let i = 0; i < text.length; i++) {
-    if (text[i] === text[i + 1]) {
-      set.add(text[i]);
-    }
-  }
-  return set.size;
-}
-              </code></pre>
+                  <p><code>function duplicateCount(text) {</code></p>
+                    <p>&nbsp&nbsp <code>let set = new Set();</code></p>
+                    <p>&nbsp&nbsp <code>text = text.toLowerCase().split('').sort().join('');</code></p>
+                    <p>&nbsp&nbsp <code>for (let i = 0; i < text.length; i++) {</code></p>
+                      <p>&nbsp&nbsp&nbsp&nbsp <code>if (text[i] === text[i + 1]) {</code></p>
+                        <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <code>set.add(text[i]);</code></p>
+                      <p>&nbsp&nbsp&nbsp&nbsp <code>}</code></p>
+                      <p>&nbsp&nbsp <code>}</code></p>
+                    <p>&nbsp&nbsp<code>return set.size;</code></p>
+                    <p><code>}</code></p>
           </section>
-        </section>
+        </div>
       </main>
     </div>
   </body>
