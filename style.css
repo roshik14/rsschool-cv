@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 48px;
+  font-weight: 400;
+
+  background-color: #F0F0F0;
+}
+
+.container {
+  max-width: 1200;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.name {
+  color: #002D6D;
+}
+
+.prof {
+  color: #D2AA1B;
+}
+
+main {
+  border-top: #F85C50 solid 2px;
+  font-size: 32px;
+}
