@@ -26,8 +26,8 @@ h4 {
   text-transform: uppercase;
 }
 
-pre {
-  margin: 10px;
+code {
+  font-size: 20px;
 }
 
 .container {
@@ -114,8 +114,14 @@ pre {
   font-size: 22px;
 }
 
-.code {
-  font-size: 20px;
+.code-examples p {
+  margin: 0;
 }
+
+.code-examples h2 {
+  margin-bottom: 30px;
+}
+
+
 
 
