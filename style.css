@@ -50,10 +50,20 @@ code {
   color: #D2AA1B;
 }
 
+.about {
+  font-size: 32px;
+}
+
 
 .left-blocks {
   max-width: 600;
   width: 100%;
+
+  border-right: #F85C50 2px solid;
+}
+
+.right-blocks {
+  margin-left: 30px;
 }
 
 .contacts-subheader {
