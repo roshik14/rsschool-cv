@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 48px;
+  font-weight: 400;
+
+  background-color: #F0F0F0;
+}
+figure {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h4 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+pre {
+  margin:0 0 0 -120px;
+  width: 600px;
+  
+}
+code {
+  font-size: 20px;
+  
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  
+}
+
+.header {
+  padding: 30px;
+  background-color: #09203F;
+  margin-bottom: 0;
+
+  border-radius: 20px;
+}
+
+.header-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  font-size: 25px;
+  text-decoration: none;
+}
+.header-list li {
+  margin: 0 10px;
+}
+.header-list a {
+  color: #F0F0F0;
+}
+
+.header-list a:hover {
+  color: #F85C50;
+}
+
+.header-list a:active {
+  color: #D2AA1B;
+}
+
+.main-section {
+  border-top: #F85C50 solid 2px;
+  font-size: 32px;
+
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 50px;
+}
+
+.main-info {
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+.avatar {
+  margin-top: 40px;
+  margin-bottom: 0;
+  border-radius: 50%;
+}
+
+.name {
+  margin: 20px 0;
+  color: #002D6D;
+}
+
+.prof {
+  color: #D2AA1B;
+}
+
+.about {
+  font-size: 32px;
+}
+
+
+.left-blocks {
+  max-width: 600px;
+  width: 100%;
+
+  border-right: #F85C50 2px solid;
+}
+
+.right-blocks {
+  margin-left: 30px;
+  max-width: 600px;
+  width: 100%;
+}
+
+
+
+.contacts-subheader {
+  font-size: 28px;
+  color: #580BE4;
+  margin-bottom: 0;
+}
+
+.contacts p {
+  font-size: 24px;
+  margin: 12px;
+}
+
+.contacts a {
+  color: #000;
+  border: #F85C50 2px solid;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.left-blocks h2 {
+  color: #D2AA1B;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.right-blocks h2 {
+  color: #D2AA1B;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.skills, .languages {
+  color: #580BE4;
+}
+.skills p, .languages p {
+  margin: 10px;
+}
+
+.languages, .languages-header {
+  margin-top: 10px;
+}
+
+.schools-section {
+  display: flex;
+  justify-content: center;
+}
+
+.years {
+  max-width: 200px;
+  width: 100%;
+}
+
+.years p {
+  margin-bottom: 140px;
+}
+
+.schools p {
+  font-size: 22px;
+}
+
+.code-examples p {
+  margin: 0;
+}
+
+.code-examples h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.footer {
+  padding: 40px;
+  background-color: #09203F;
+}
+
+
+
+
