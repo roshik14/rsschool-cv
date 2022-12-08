@@ -7,7 +7,7 @@
 **Discord** : Rashid (@roshik14)
 
 ## Summary
-My goal is to become a successful senior software developer. I like to learn new things, I constantly strive for improvement. Won in a hackathon hosted by Sber.
+My goal is to become a successful senior software developer. I like to learn new things, I constantly strive for improvement.
 
 ## Skills
 * C/C++/Qt
