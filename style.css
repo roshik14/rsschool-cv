@@ -1,0 +1,33 @@
+body {
+  font-size: 36px;
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-list-item {
+  margin: 0 15px;
+  font-size: 20px;
+}
+
+.navigation-list-item-link:link, :visited {
+  color: black;
+}
