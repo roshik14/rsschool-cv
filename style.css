@@ -1,6 +1,8 @@
 body {
-  font-size: 36px;
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
 }
+
 ul {
   list-style-type: none;
 }
@@ -28,6 +30,37 @@ a {
   font-size: 20px;
 }
 
+.navigation-list-item-link {
+  transition: color 0.2s;
+}
+
 .navigation-list-item-link:link, :visited {
   color: black;
 }
+
+.navigation-list-item-link:hover {
+  color:red;
+}
+
+.contacts-and-photo {
+  display: flex;
+  justify-content: space-between;
+}
+
+figcaption {
+  text-align: center;
+  background-color: orange;
+}
+
+.skills-list {
+  list-style-type: disc;
+}
+
+.projects-list-item-link {
+  transition: background-color 0.3s;
+}
+
+.projects-list-item-link:hover {
+  background-color: coral;
+}
+
