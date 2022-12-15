@@ -1,0 +1,80 @@
+body {
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+  background-color:	#E0E0E0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-list-item {
+  margin: 0 15px;
+  font-size: 20px;
+}
+
+.navigation-list-item-link {
+  transition: color 0.2s;
+}
+
+.navigation-list-item-link:link, :visited {
+  color: black;
+}
+
+.navigation-list-item-link:hover {
+  color:red;
+}
+
+.contacts-and-photo {
+  display: flex;
+  justify-content: space-between;
+}
+
+figcaption {
+  text-align: center;
+  background-color: orange;
+}
+
+.skills-list {
+  list-style-type: disc;
+}
+
+.projects-list-item-link {
+  transition: background-color 0.3s;
+}
+
+.projects-list-item-link:hover {
+  background-color: coral;
+}
+
+.footer {
+  margin-top: 150px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-list a img {
+  margin: 0;
+}
+
