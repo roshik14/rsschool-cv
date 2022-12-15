@@ -64,3 +64,16 @@ figcaption {
   background-color: coral;
 }
 
+.footer {
+  margin-top: 150px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-list a img {
+  margin: 0;
+}
+
