@@ -11,6 +11,11 @@ ul {
 a {
   text-decoration: none;
 }
+
+figure {
+  margin: 0;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -77,4 +82,3 @@ figcaption {
 .footer-list a img {
   margin: 0;
 }
-
