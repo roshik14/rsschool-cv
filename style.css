@@ -22,7 +22,7 @@ figure {
   margin: 0 auto;
 }
 
-.header {
+.flex-container {
   display: flex;
 }
 
